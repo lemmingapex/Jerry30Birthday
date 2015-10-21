@@ -16,7 +16,7 @@ $(document).ready(function() {
 	oscillator.start();
 
 	// input : single note, like 'E'
-	// output : frequency in Hz need middle C, like 659
+	// output : frequency in Hz near middle C, like 659
 	var noteToFreq = function(note) {
 		var freq;
 		switch (note) {
